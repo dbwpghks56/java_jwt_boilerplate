@@ -1,0 +1,253 @@
+11:20:21.331 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+11:20:21.350 INFO  com.test.api.todo.TodoApplication - Starting TodoApplication using Java 11.0.16.1 on DESKTOP-4CURANV with PID 4668 (C:\Users\wpghk\IdeaProjects\todo\build\classes\java\main started by wpghk in C:\Users\wpghk\IdeaProjects\todo)
+11:20:21.351 INFO  com.test.api.todo.TodoApplication - The following 1 profile is active: "local"
+11:20:21.398 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:20:22.392 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:20:22.410 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+11:20:22.863 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$297685e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:20:22.897 INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+11:20:23.328 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+11:20:23.340 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+11:20:23.342 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:20:23.342 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.76]
+11:20:23.475 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+11:20:23.475 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2076 ms
+11:20:23.653 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:20:23.707 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+11:20:23.891 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:20:23.991 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:20:24.363 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:20:24.378 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11:20:24.617 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:20:24.628 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:20:25.199 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@17b53b29, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d09d87e, org.springframework.security.web.context.SecurityContextPersistenceFilter@3362a36a, org.springframework.security.web.header.HeaderWriterFilter@e04b300, org.springframework.security.web.authentication.logout.LogoutFilter@2cda910b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60289483, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bc135db, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3536b294, org.springframework.security.web.session.SessionManagementFilter@2579d8b5, org.springframework.security.web.access.ExceptionTranslationFilter@16855d56, org.springframework.security.web.access.intercept.AuthorizationFilter@1eee9706]
+11:20:25.202 WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+11:20:25.202 INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+11:20:25.346 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:20:25.592 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+11:20:25.612 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/api/v1'
+11:20:25.654 INFO  com.test.api.todo.TodoApplication - Started TodoApplication in 4.868 seconds (JVM running for 5.401)
+11:20:30.648 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:20:30.648 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:20:30.650 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+11:22:58.547 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+11:22:58.553 INFO  com.test.api.todo.TodoApplication - Starting TodoApplication using Java 11.0.16.1 on DESKTOP-4CURANV with PID 4924 (C:\Users\wpghk\IdeaProjects\todo\build\classes\java\main started by wpghk in C:\Users\wpghk\IdeaProjects\todo)
+11:22:58.554 INFO  com.test.api.todo.TodoApplication - The following 1 profile is active: "local"
+11:22:58.601 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:22:59.486 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:22:59.502 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+11:22:59.862 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9b866528] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:22:59.894 INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+11:23:00.312 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+11:23:00.320 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+11:23:00.321 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:23:00.321 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.76]
+11:23:00.455 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+11:23:00.455 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1853 ms
+11:23:00.636 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:23:00.683 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+11:23:00.852 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:23:00.967 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:23:01.311 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:23:01.326 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11:23:01.564 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:23:01.573 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:23:02.121 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e251ea7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b8454f, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d229f9c, org.springframework.security.web.header.HeaderWriterFilter@6bc8a32a, org.springframework.security.web.authentication.logout.LogoutFilter@2e577dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c43c801, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a0dcfdf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a947f9, org.springframework.security.web.session.SessionManagementFilter@3a4fd328, org.springframework.security.web.access.ExceptionTranslationFilter@71367a5f, org.springframework.security.web.access.intercept.AuthorizationFilter@138ded89]
+11:23:02.124 WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+11:23:02.125 INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+11:23:02.263 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:23:02.490 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+11:23:02.510 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/api/v1'
+11:23:02.550 INFO  com.test.api.todo.TodoApplication - Started TodoApplication in 4.617 seconds (JVM running for 5.25)
+11:23:04.613 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:23:04.614 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:23:04.616 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+11:31:46.637 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+11:31:46.662 INFO  com.test.api.todo.TodoApplication - Starting TodoApplication using Java 11.0.16.1 on DESKTOP-4CURANV with PID 8108 (C:\Users\wpghk\IdeaProjects\todo\build\classes\java\main started by wpghk in C:\Users\wpghk\IdeaProjects\todo)
+11:31:46.663 INFO  com.test.api.todo.TodoApplication - The following 1 profile is active: "local"
+11:31:46.715 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:31:47.535 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:31:47.551 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+11:31:47.946 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$566f865d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:31:47.987 INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+11:31:48.406 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+11:31:48.413 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+11:31:48.415 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:31:48.415 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.76]
+11:31:48.538 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+11:31:48.538 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1821 ms
+11:31:48.704 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:31:48.754 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+11:31:48.916 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:31:49.018 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:31:49.408 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:31:49.425 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11:31:49.682 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:31:49.693 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:31:50.340 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4a8d5919, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27912859, org.springframework.security.web.context.SecurityContextPersistenceFilter@419fa45b, org.springframework.security.web.header.HeaderWriterFilter@4914599f, org.springframework.security.web.authentication.logout.LogoutFilter@38703d45, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a592ef1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1478392c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@508a7d06, org.springframework.security.web.session.SessionManagementFilter@7800e0e4, org.springframework.security.web.access.ExceptionTranslationFilter@2ee39225, org.springframework.security.web.access.intercept.AuthorizationFilter@2339c918]
+11:31:50.348 WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+11:31:50.349 INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+11:31:50.497 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:31:50.735 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+11:31:50.753 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/api/v1'
+11:31:50.805 INFO  com.test.api.todo.TodoApplication - Started TodoApplication in 4.727 seconds (JVM running for 5.209)
+11:31:56.908 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:31:56.908 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:31:56.910 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+11:34:29.324 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+11:34:29.340 INFO  com.test.api.todo.TodoApplication - Starting TodoApplication using Java 11.0.16.1 on DESKTOP-4CURANV with PID 6916 (C:\Users\wpghk\IdeaProjects\todo\build\classes\java\main started by wpghk in C:\Users\wpghk\IdeaProjects\todo)
+11:34:29.341 INFO  com.test.api.todo.TodoApplication - The following 1 profile is active: "local"
+11:34:29.382 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:34:30.192 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:34:30.208 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+11:34:30.578 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5e511a05] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:34:30.621 INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+11:34:31.071 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+11:34:31.080 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+11:34:31.083 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:34:31.083 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.76]
+11:34:31.210 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+11:34:31.211 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1828 ms
+11:34:31.417 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:34:31.469 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+11:34:31.637 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:34:31.745 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:34:32.127 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:34:32.143 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11:34:32.391 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:34:32.402 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:34:32.958 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@41220155, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1007eb51, org.springframework.security.web.context.SecurityContextPersistenceFilter@45cba495, org.springframework.security.web.header.HeaderWriterFilter@3d97870f, org.springframework.security.web.authentication.logout.LogoutFilter@13f6e51d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@213405d1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f0839b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e1a48c5, org.springframework.security.web.session.SessionManagementFilter@244c50f2, org.springframework.security.web.access.ExceptionTranslationFilter@2c31f409, org.springframework.security.web.access.intercept.AuthorizationFilter@78453626]
+11:34:32.971 WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+11:34:32.971 INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+11:34:33.115 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:34:33.372 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+11:34:33.391 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/api/v1'
+11:34:33.431 INFO  com.test.api.todo.TodoApplication - Started TodoApplication in 4.619 seconds (JVM running for 5.109)
+11:34:35.819 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:34:35.819 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:34:35.823 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+11:34:51.776 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+11:34:51.792 INFO  com.test.api.todo.TodoApplication - Starting TodoApplication using Java 11.0.16.1 on DESKTOP-4CURANV with PID 7064 (C:\Users\wpghk\IdeaProjects\todo\build\classes\java\main started by wpghk in C:\Users\wpghk\IdeaProjects\todo)
+11:34:51.793 INFO  com.test.api.todo.TodoApplication - The following 1 profile is active: "local"
+11:34:51.837 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:34:52.752 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:34:52.768 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+11:34:53.135 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1b8fd1b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:34:53.167 INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+11:34:53.598 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+11:34:53.608 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+11:34:53.609 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:34:53.609 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.76]
+11:34:53.744 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+11:34:53.744 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1906 ms
+11:34:53.917 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:34:53.969 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+11:34:54.311 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:34:54.505 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:34:54.846 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:34:54.861 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11:34:55.102 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:34:55.113 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:34:55.725 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@42c1c826, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@da9c8c5, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e5e487, org.springframework.security.web.header.HeaderWriterFilter@3ecdc7e0, org.springframework.security.web.authentication.logout.LogoutFilter@2b86953f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7429c8e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@df204d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25ad9c7, org.springframework.security.web.session.SessionManagementFilter@46c81ab8, org.springframework.security.web.access.ExceptionTranslationFilter@16238e66, org.springframework.security.web.access.intercept.AuthorizationFilter@17db1f84]
+11:34:55.729 WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+11:34:55.729 INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+11:34:55.885 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:34:56.135 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+11:34:56.154 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/api/v1'
+11:34:56.198 INFO  com.test.api.todo.TodoApplication - Started TodoApplication in 4.941 seconds (JVM running for 5.428)
+11:35:12.322 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:35:12.322 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:35:12.324 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+13:00:21.887 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+13:00:21.902 INFO  com.test.api.todo.TodoApplication - Starting TodoApplication using Java 11.0.16.1 on DESKTOP-4CURANV with PID 8740 (C:\Users\wpghk\IdeaProjects\todo\build\classes\java\main started by wpghk in C:\Users\wpghk\IdeaProjects\todo)
+13:00:21.903 INFO  com.test.api.todo.TodoApplication - The following 1 profile is active: "local"
+13:00:21.944 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:00:22.763 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:00:22.778 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+13:00:23.174 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4e219d6d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:00:23.216 INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+13:00:23.641 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+13:00:23.649 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+13:00:23.651 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:00:23.651 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.76]
+13:00:23.771 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+13:00:23.771 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1827 ms
+13:00:23.943 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:00:23.991 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+13:00:24.229 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:00:24.386 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:00:24.789 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:00:24.804 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13:00:25.154 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:00:25.164 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:00:25.843 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@c0ce254, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20eb6d51, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a330e0a, org.springframework.security.web.header.HeaderWriterFilter@56359b07, org.springframework.security.web.authentication.logout.LogoutFilter@1d68e6ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1da3e0eb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e1407bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@464e4936, org.springframework.security.web.session.SessionManagementFilter@7b02201f, org.springframework.security.web.access.ExceptionTranslationFilter@23019058, org.springframework.security.web.access.intercept.AuthorizationFilter@225ddd1]
+13:00:25.847 WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+13:00:25.848 INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+13:00:25.987 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:00:26.242 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+13:00:26.262 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/api/v1'
+13:00:26.304 INFO  com.test.api.todo.TodoApplication - Started TodoApplication in 4.929 seconds (JVM running for 5.405)
+13:00:40.644 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:00:40.645 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:00:40.646 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+13:01:38.711 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+13:01:38.725 INFO  com.test.api.todo.TodoApplication - Starting TodoApplication using Java 11.0.16.1 on DESKTOP-4CURANV with PID 17468 (C:\Users\wpghk\IdeaProjects\todo\build\classes\java\main started by wpghk in C:\Users\wpghk\IdeaProjects\todo)
+13:01:38.726 INFO  com.test.api.todo.TodoApplication - The following 1 profile is active: "local"
+13:01:38.765 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:01:39.601 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:01:39.616 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+13:01:40.016 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$bb486aa9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:01:40.046 INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+13:01:40.437 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+13:01:40.445 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+13:01:40.446 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:01:40.446 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.76]
+13:01:40.566 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+13:01:40.566 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1800 ms
+13:01:40.724 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:01:40.786 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+13:01:40.946 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:01:41.057 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:01:41.486 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:01:41.501 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13:01:41.739 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:01:41.750 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:01:42.306 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@d1f2a3b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c14e8a3, org.springframework.security.web.context.SecurityContextPersistenceFilter@69c82ce3, org.springframework.security.web.header.HeaderWriterFilter@132978a2, org.springframework.security.web.authentication.logout.LogoutFilter@27252c97, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46ee8eb7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50e8e144, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@723c8bd0, org.springframework.security.web.session.SessionManagementFilter@12cb759f, org.springframework.security.web.access.ExceptionTranslationFilter@23fcd84b, org.springframework.security.web.access.intercept.AuthorizationFilter@49930922]
+13:01:42.309 WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+13:01:42.309 INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+13:01:42.440 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:01:42.660 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+13:01:42.679 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/api/v1'
+13:01:42.742 INFO  com.test.api.todo.TodoApplication - Started TodoApplication in 4.546 seconds (JVM running for 5.079)
+13:01:44.443 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:01:44.443 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:01:44.445 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+14:21:27.642 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+14:21:27.657 INFO  com.test.api.todo.TodoApplication - Starting TodoApplication using Java 11.0.16.1 on DESKTOP-4CURANV with PID 17152 (C:\Users\wpghk\IdeaProjects\todo\build\classes\java\main started by wpghk in C:\Users\wpghk\IdeaProjects\todo)
+14:21:27.659 INFO  com.test.api.todo.TodoApplication - The following 1 profile is active: "local"
+14:21:27.705 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:21:28.499 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:21:28.513 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+14:21:28.883 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e59e6c92] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:21:28.915 INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+14:21:29.323 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+14:21:29.332 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+14:21:29.334 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:21:29.334 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.76]
+14:21:29.463 INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+14:21:29.464 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1757 ms
+14:21:29.630 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:21:29.683 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+14:21:29.850 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:21:29.954 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:21:30.326 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:21:30.341 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+14:21:30.579 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:21:30.589 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:21:31.138 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@30b90617, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@216f12f0, org.springframework.security.web.context.SecurityContextPersistenceFilter@6eb44c46, org.springframework.security.web.header.HeaderWriterFilter@c0bbc3d, org.springframework.security.web.authentication.logout.LogoutFilter@791831b8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cfa3fff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5460e63a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c37a652, org.springframework.security.web.session.SessionManagementFilter@2534787c, org.springframework.security.web.access.ExceptionTranslationFilter@151f1ddd, org.springframework.security.web.access.intercept.AuthorizationFilter@662efd25]
+14:21:31.149 WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+14:21:31.150 INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure Ant [pattern='/resources/**']
+14:21:31.292 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:21:31.513 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+14:21:31.531 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/api/v1'
+14:21:31.573 INFO  com.test.api.todo.TodoApplication - Started TodoApplication in 4.426 seconds (JVM running for 4.893)
