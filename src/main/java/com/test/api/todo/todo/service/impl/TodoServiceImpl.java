@@ -12,6 +12,8 @@ import com.test.api.todo.todo.service.TodoService;
 import com.test.api.todo.user.domain.model.User;
 import com.test.api.todo.user.domain.repository.UserRepository;
 import com.test.api.todo.user.service.impl.UserDetailsImpl;
+import io.sentry.Sentry;
+import io.sentry.spring.tracing.SentrySpan;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
@@ -21,6 +23,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.client.HttpClientErrorException;
 
 @RequiredArgsConstructor
 @Service
@@ -112,6 +115,7 @@ public class TodoServiceImpl implements TodoService {
      */
     @Override
     @Transactional(readOnly = true)
+    @SentrySpan(description = "todo 테스트")
     public TodoDetailResponseDto todoDetail(Long todoId) throws Exception {
         // 유저 및 투두 검증
         Todo todo = verifyUserTodo(todoId);
@@ -120,11 +124,11 @@ public class TodoServiceImpl implements TodoService {
         return TodoDetailResponseDto.builder().entity(todo).build();
     }
 
-    private Todo verifyUserTodo(Long id) {
+    private Todo verifyUserTodo(Long id) throws Exception {
         UserDetailsImpl userDetails = (UserDetailsImpl) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         if (!userRepository.existsById(userDetails.getSeq())) throw new RestException(HttpStatus.NOT_FOUND, "유저가 존재하지 않습니다.");
         Todo todo = todoRepository.findById(id).orElseThrow(() -> new RestException(HttpStatus.NOT_FOUND, "해당 id 의 todo 를 찾을 수 없습니다."));
-        if (todo.getUser().getSeq() != userDetails.getSeq()) throw new RestException(HttpStatus.BAD_REQUEST, "해당 todo 를 기록한 사용자가 아닙니다.");
+        if (todo.getUser().getSeq() != userDetails.getSeq()) throw new RestException(HttpStatus.BAD_REQUEST, "해당 todo 의 주인이 아닙니다.");
 
         return todo;
     }

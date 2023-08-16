@@ -7,6 +7,7 @@ import com.test.api.todo.todo.dto.response.TodoResponseDto;
 import com.test.api.todo.todo.enums.TodoEnums;
 import com.test.api.todo.todo.service.TodoService;
 import com.test.api.todo.user.dto.response.VerifyResponseDto;
+import io.sentry.Sentry;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

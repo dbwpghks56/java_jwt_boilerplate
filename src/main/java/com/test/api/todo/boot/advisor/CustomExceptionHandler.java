@@ -6,6 +6,8 @@ import com.test.api.todo.boot.exception.RestException;
 import com.test.api.todo.boot.exception.UserNotFoundException;
 import com.test.api.todo.boot.exception.WithdrawalUserException;
 import com.test.api.todo.boot.util.FilterErrorUtils;
+import io.sentry.Sentry;
+import io.sentry.spring.tracing.SentrySpan;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -28,6 +30,7 @@ public class CustomExceptionHandler {
     @ExceptionHandler(RestException.class)
     public ResponseEntity<CommonResponseDto> restExceptionHandler(RestException e) {
         e.printStackTrace();
+        Sentry.captureException(e);
         CommonResponseDto responseDto = CommonResponseDto.builder()
                 .success(false)
                 .status(e.getHttpStatus().value())
@@ -39,6 +42,7 @@ public class CustomExceptionHandler {
 
     @ExceptionHandler(BadCredentialsException.class)
     public ResponseEntity<CommonResponseDto> badCredentialExceptionHandler(BadCredentialsException e) {
+        Sentry.captureException(e);
         CommonResponseDto responseDto = CommonResponseDto.builder()
                 .success(false)
                 .status(HttpStatus.UNAUTHORIZED.value())
@@ -50,6 +54,7 @@ public class CustomExceptionHandler {
 
     @ExceptionHandler(UserNotFoundException.class)
     public ResponseEntity<CommonResponseDto> userNotFoundExceptionHandler(UserNotFoundException e) {
+        Sentry.captureException(e);
         CommonResponseDto responseDto = CommonResponseDto.builder()
                 .success(false)
                 .status(e.getHttpStatus().value())
@@ -62,6 +67,7 @@ public class CustomExceptionHandler {
 
     @ExceptionHandler(AccessDeniedException.class)
     public ResponseEntity<CommonResponseDto> accessDeniedHandler(AccessDeniedException e) {
+        Sentry.captureException(e);
         CommonResponseDto responseDto = CommonResponseDto.builder()
                 .success(false)
                 .status(HttpStatus.FORBIDDEN.value())
@@ -74,6 +80,7 @@ public class CustomExceptionHandler {
 
     @ExceptionHandler(CertificationException.class)
     public ResponseEntity<CommonResponseDto> certificateExceptionHandler(CertificationException e) throws Exception {
+        Sentry.captureException(e);
         CommonResponseDto responseDto = CommonResponseDto.builder()
                 .success(false)
                 .status(HttpStatus.BAD_REQUEST.value())
@@ -86,6 +93,7 @@ public class CustomExceptionHandler {
 
     @ExceptionHandler()
     public ResponseEntity<CommonResponseDto> allExceptionHandler(Exception e) {
+        Sentry.captureException(e);
         CommonResponseDto responseDto = CommonResponseDto.builder()
                 .success(false)
                 .status(HttpStatus.INTERNAL_SERVER_ERROR.value())
@@ -98,6 +106,7 @@ public class CustomExceptionHandler {
 
     @ExceptionHandler(WithdrawalUserException.class)
     public ResponseEntity<CommonResponseDto> withdrawalExceptionHandler(WithdrawalUserException e){
+        Sentry.captureException(e);
         CommonResponseDto responseDto = CommonResponseDto.builder()
                 .success(false)
                 .status(HttpStatus.BAD_REQUEST.value())
