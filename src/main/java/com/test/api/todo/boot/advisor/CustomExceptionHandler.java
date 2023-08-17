@@ -30,7 +30,6 @@ public class CustomExceptionHandler {
     @ExceptionHandler(RestException.class)
     public ResponseEntity<CommonResponseDto> restExceptionHandler(RestException e) {
         e.printStackTrace();
-        Sentry.captureException(e);
         CommonResponseDto responseDto = CommonResponseDto.builder()
                 .success(false)
                 .status(e.getHttpStatus().value())
