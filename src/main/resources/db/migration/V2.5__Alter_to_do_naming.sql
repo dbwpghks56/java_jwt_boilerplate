@@ -1,0 +1,1 @@
+ALTER TABLE tb_todo RENAME COLUMN user_id TO user_seq

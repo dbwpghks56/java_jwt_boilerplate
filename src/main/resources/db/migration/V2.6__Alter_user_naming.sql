@@ -1,0 +1,1 @@
+ALTER TABLE tb_user RENAME COLUMN nickName TO nick_name

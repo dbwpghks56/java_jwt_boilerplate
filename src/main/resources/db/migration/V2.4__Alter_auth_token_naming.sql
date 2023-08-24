@@ -1,0 +1,1 @@
+ALTER TABLE tb_auth_token RENAME COLUMN userseq TO user_seq;
