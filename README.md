@@ -17,6 +17,7 @@
 • JPA   
 • PostgreSQL    
 • Sentry    
+• Flyway     
 
 ## Installation
 
@@ -100,6 +101,9 @@ Swagger 를 추가해 Api 에대한 명세를 쉽게 눈으로 확인할 수 있
 ### Sentry
 
 커스텀 에러 및 스프링 에러를 추적, 기록하기 위해 sentry를 도입했습니다.    
+
+### Flyway
+[Flyway 도입 내용](https://velog.io/@dbwpghks56/Flyway-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%8F%84%EC%9E%85){: target="_blank"}
 
 
 
